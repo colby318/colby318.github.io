@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CB² Report — Intelligence Analysis by Colby Burns</title>
+<meta name="description" content="CB² Report — independent intelligence analysis and briefs by Colby Burns.">
+
+<!-- Favicon: simple inline SVG, no external file needed -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%231a1a1a'/%3E%3Ctext x='50' y='68' font-size='54' font-family='Georgia,serif' fill='%23f7f4ee' text-anchor='middle'%3ECB%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===================== MASTHEAD ===================== -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="kicker">INDEPENDENT ANALYSIS · EST. 2026</p>
+    <h1 class="title">CB<span class="sup">2</span> REPORT</h1>
+    <p class="tagline">Intelligence Analysis &amp; Briefs — Colby Burns</p>
+    <p class="meta-line" id="masthead-meta"><!-- filled by JS: Vol/date --></p>
+  </div>
+</header>
+
+<nav class="site-nav">
+  <a href="#briefs">Briefs</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a href="https://github.com/colby318" target="_blank" rel="noopener">GitHub ↗</a>
+</nav>
+
+<main>
+
+  <!-- ===================== BRIEFS ===================== -->
+  <section id="briefs" class="section">
+    <h2 class="section-label">Latest Briefs</h2>
+    <div id="briefs-container" class="briefs-container">
+      <!-- Rendered by js/app.js from js/data.js -->
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="section section-about">
+    <h2 class="section-label">About</h2>
+    <div class="about-content">
+      <!-- EDIT: update this bio to describe your background, focus areas, and experience -->
+      <p>
+        Colby Burns is an intelligence analyst focused on turning raw information into clear,
+        well-sourced assessments. CB² Report is a personal collection of independent research,
+        briefs, and analytical write-ups — a working notebook made public.
+      </p>
+      <p>
+        New briefs are added as work is completed. Check back regularly, or follow along on
+        <a href="https://github.com/colby318" target="_blank" rel="noopener">GitHub</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="section section-contact">
+    <h2 class="section-label">Contact</h2>
+    <div class="contact-links">
+      <a class="contact-btn" href="https://www.linkedin.com/in/colby-burns-4b95b117a/" target="_blank" rel="noopener">
+        <span class="contact-btn-label">LinkedIn</span>
+        <span class="contact-btn-sub">Colby Burns ↗</span>
+      </a>
+      <a class="contact-btn" href="https://github.com/colby318" target="_blank" rel="noopener">
+        <span class="contact-btn-label">GitHub</span>
+        <span class="contact-btn-sub">@colby318 ↗</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>CB² Report — Independent analysis by Colby Burns.</p>
+  <p class="footer-sub">Built as a static site, hosted on GitHub Pages.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
